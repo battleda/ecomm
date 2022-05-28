@@ -7,12 +7,15 @@ Wanna-be SFA
 git clone https://github.com/battleda/ecomm.git
 
 Перейти в папку [ecomm] и выполнить команду для сборки проекта
+
 gradle build
 
 Запустить сервис командой 
+
 gradle bootRun
 
 После запуска проекта перейти по адресу
+
 http://localhost:8081/api/test/item
 
 
