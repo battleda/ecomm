@@ -35,4 +35,11 @@ public class Item {
 		return item;
 	}
 
+	public static Item newTestItemAnother() {
+		Item item = Item.newItem();
+		item.setId(2);
+		item.setName("Pencil");
+		return item;
+	}
+
 }

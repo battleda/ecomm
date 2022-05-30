@@ -27,9 +27,14 @@ class _ItemTest {
 	void testDataGenerators() {
 		Item item = Item.newItem();
 		assertNotNull("Check init", item);
+		
 		item = Item.newTestItem();
 		assertEquals("Check generated value for id field", 1l, item.getId());
 		assertEquals("Check generated value for name field", "Pen", item.getName());
+		
+		item = Item.newTestItemAnother();
+		assertEquals("Check generated value for id field", 2l, item.getId());
+		assertEquals("Check generated value for name field", "Pencil", item.getName());
 	}
 
 }
