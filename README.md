@@ -18,5 +18,7 @@ gradle bootRun
 
 http://localhost:8081/api/test/item
 
+http://localhost:8081/api/test/order
+
 
 
